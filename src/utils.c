@@ -60,6 +60,19 @@ strcpy(x,y);
 
 
 
+for(int c=0; c<len-a; c++){
+if(x[c]==' ' && x[c+1] == ' '){
+for(int d=c; d<len-a-1; d++){
+x[d] = x[d+1];
+x[d+1] = ' ' ;
+}
+len =len-1;
+}
+}
+strcpy(x,x);
+
+
+
 
 for(int c=0; c<len-a; c++){
 if(x[c]==' '){
