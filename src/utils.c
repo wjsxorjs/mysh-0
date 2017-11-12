@@ -67,6 +67,7 @@ x[d] = x[d+1];
 x[d+1] = ' ' ;
 }
 len =len-1;
+c = 0;
 }
 }
 strcpy(x,x);
